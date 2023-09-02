@@ -101,7 +101,7 @@ const SkillsForm = ({
               onChange: e => {
                 onSelectChange(e)
               },
-              required: true
+              required: false
             })}>
             <option value=''>Skills</option>
             {skillsData.map(item => (
@@ -121,7 +121,7 @@ const SkillsForm = ({
               onChange: e => {
                 onYearChange(e)
               },
-              required: true
+              required: false
             })}
           />
 
